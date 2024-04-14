@@ -50,7 +50,7 @@ Section1.append(ProductDiv)
 
 Products1.forEach(function(el){
     let Pdiv = document.createElement("a")
-    Pdiv.href = el.link
+    // Pdiv.href = el.link
 
     let img = document.createElement('img')
     img.src = el.img
@@ -82,7 +82,7 @@ let nextBtn = document.querySelector(".nextBtn")
 ArrAds.forEach((el) => {
     let span = document.createElement("span")
     let A = document.createElement("a")
-    A.href = el.link
+    // A.href = el.link
     let img = document.createElement("img")
     img.src = el.image
     img.className = "images"
@@ -142,7 +142,7 @@ ArrLab.forEach(el => {
     let TestBox = document.createElement("div")
 
     let link = document.createElement("a")
-    link.href = el.link
+    // link.href = el.link
     let poster = document.createElement("img")
     poster.src = el.image
     poster.className = "poster"
@@ -480,7 +480,7 @@ let R2 = document.querySelector(".ButtonR2")
 
 ProductA.forEach((ele) => {
     let link = document.createElement("a")
-    link.href = ele.link
+    // link.href = ele.link
 
     let img = document.createElement("img")
     img.src = ele.image;
@@ -511,7 +511,7 @@ R.addEventListener("click", () => {
 
 ProductB.forEach((ele) => {
     let link = document.createElement("a")
-    link.href = ele.link
+    // link.href = ele.link
 
     let img = document.createElement("img")
     img.src = ele.image;
@@ -545,7 +545,7 @@ R1.addEventListener("click", () => {
 
 ProductC.forEach((ele) => {
     let link = document.createElement("a")
-    link.href = ele.link
+    // link.href = ele.link
 
     let img = document.createElement("img")
     img.src = ele.image;
